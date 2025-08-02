@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+.heart-img {
+    width: 25px;
+    margin: 5px;
+    filter: invert(100%);
+}
+
+#root {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#html {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #FF91A4;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    position: sticky;
+    top: 0;
+}
+
+.title-div {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+form {
+    margin: 30px 10px 0 10px;
+}
